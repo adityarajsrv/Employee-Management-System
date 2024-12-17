@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  color: #fff;
+}
+
+body{
+  background-color: #111;
+}
+
+#tasklist::-webkit-scrollbar{
+  display: none;
+}
+
+button:hover{
+  scale: 1.05;
+}
+
+#alltask::-webkit-scrollbar{
+  display: none;
+}
